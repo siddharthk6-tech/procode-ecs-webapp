@@ -52,7 +52,7 @@ git clone https://github.com/siddharthk6-tech/procode-ecs-webapp.git
 cd procode-ecs-webapp
 
 
-## Initialize Terraform
+2. *Initialize Terraform*
 
 terraform init
 
@@ -86,3 +86,4 @@ Testing the Deployment
 Visit the alb_dns_name in your browser.
 
 You should see the NGINX welcome page indicating the container is running successfully.
+
