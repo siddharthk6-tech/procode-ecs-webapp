@@ -97,6 +97,13 @@ Visit the alb_dns_name in your browser.
 You should see the NGINX welcome page indicating the container is running successfully.
 
 
+## Clean Up
+
+To destroy all resources created by Terraform:
+
+```bash 
+terraform destroy -auto-approve
+```
 
 
 
