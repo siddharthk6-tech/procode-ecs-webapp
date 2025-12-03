@@ -61,12 +61,16 @@ terraform init
 
 3. **Review the planned infrastructure**
 
-```terraform plan```
+```bash
+terraform plan
+```
 
 
 4. **Apply the configuration**
 
-```terraform apply -auto-approve```
+```bash
+terraform apply -auto-approve
+```
 
 ---
 
@@ -91,6 +95,7 @@ terraform init
 Visit the alb_dns_name in your browser.
 
 You should see the NGINX welcome page indicating the container is running successfully.
+
 
 
 
