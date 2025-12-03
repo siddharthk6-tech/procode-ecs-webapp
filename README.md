@@ -43,7 +43,11 @@ The infrastructure deployed includes:
   - S3 Bucket and DynamoDB (for remote state)
 
 ---
+### Backend Configuration
 
+- Terraform remote state is stored in an S3 bucket and uses a DynamoDB table for state locking.
+- **Note:** The S3 bucket and DynamoDB table were manually created prior to running Terraform.
+---
 ## How to Deploy
 
 1. **Clone the repository**
@@ -105,6 +109,7 @@ To destroy all resources created by Terraform:
 ```bash 
 terraform destroy -auto-approve
 ```
+
 
 
 
