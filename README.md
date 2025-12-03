@@ -50,40 +50,44 @@ The infrastructure deployed includes:
 ```bash
 git clone https://github.com/siddharthk6-tech/procode-ecs-webapp.git
 cd procode-ecs-webapp
+```
 
-
-2. *Initialize Terraform*
+2. **Initialize Terraform**
 
 terraform init
 
 
-## *Review the planned infrastructure*
+3. **Review the planned infrastructure**
 
 terraform plan
 
 
-Apply the configuration
+4. **Apply the configuration**
 
 terraform apply -auto-approve
 
+---
 
-Outputs
+## Outputs
 
-alb_dns_name → Access the web application using this ALB DNS.
+**alb_dns_name** → Access the web application using this ALB DNS.
 
-ecs_cluster_name → Name of ECS Cluster.
+**ecs_cluster_name** → Name of ECS Cluster.
 
-ecs_service_name → Name of ECS Service.
+**ecs_service_name** → Name of ECS Service.
 
-vpc_id → VPC ID.
+**vpc_id** → VPC ID.
 
-subnet_ids → List of public subnet IDs.
+**subnet_ids** → List of public subnet IDs.
 
-security_group_id → Security Group ID for ECS tasks.
+**security_group_id** → Security Group ID for ECS tasks.
 
-Testing the Deployment
+---
+
+## Testing the Deployment
 
 Visit the alb_dns_name in your browser.
 
 You should see the NGINX welcome page indicating the container is running successfully.
+
 
