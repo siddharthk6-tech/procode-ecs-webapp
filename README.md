@@ -54,7 +54,8 @@ cd procode-ecs-webapp
 
 2. **Initialize Terraform**
 
-```terraform init```
+```bash
+terraform init```
 
 
 3. **Review the planned infrastructure**
@@ -89,6 +90,7 @@ cd procode-ecs-webapp
 Visit the alb_dns_name in your browser.
 
 You should see the NGINX welcome page indicating the container is running successfully.
+
 
 
 
