@@ -86,7 +86,7 @@ terraform apply -auto-approve
 
 **ecs_service_name** → [Name of ECS Service.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/ECS-service.png)
 
-**vpc_id** → [VPC ID].(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
+**vpc_id** → [VPC ID.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
 
 **subnet_ids** → [List of public subnet IDs.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
 
@@ -109,6 +109,7 @@ To destroy all resources created by Terraform:
 ```bash 
 terraform destroy -auto-approve
 ```
+
 
 
 
