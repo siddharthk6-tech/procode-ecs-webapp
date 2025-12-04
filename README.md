@@ -80,17 +80,17 @@ terraform apply -auto-approve
 
 ## Outputs
 
-**alb_dns_name** → Access the web application using this ALB DNS.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/alb-showing-nginx_page.png)
+**alb_dns_name** → [Access the web application using this ALB DNS.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/alb-showing-nginx_page.png)
 
-**ecs_cluster_name** → Name of ECS Cluster.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/ECS-cluster.png)
+**ecs_cluster_name** → [Name of ECS Cluster.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/ECS-cluster.png)
 
-**ecs_service_name** → Name of ECS Service.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/ECS-service.png)
+**ecs_service_name** → [Name of ECS Service.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/ECS-service.png)
 
-**vpc_id** → VPC ID.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
+**vpc_id** → [VPC ID].(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
 
-**subnet_ids** → List of public subnet IDs.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
+**subnet_ids** → [List of public subnet IDs.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
 
-**security_group_id** → Security Group ID for ECS tasks.(https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
+**security_group_id** → [Security Group ID for ECS tasks.](https://github.com/siddharthk6-tech/procode-ecs-webapp/blob/main/proofs/Terraform-apply-output.png)
 
 ---
 
@@ -109,6 +109,7 @@ To destroy all resources created by Terraform:
 ```bash 
 terraform destroy -auto-approve
 ```
+
 
 
 
